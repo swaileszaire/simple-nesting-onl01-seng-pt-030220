@@ -128,7 +128,6 @@ def adding_to_dennis
         }
      }
 
-programmer_hash[:dennis_ritchie] = where
-where[:languages] = add
+programmer_hash[:dennis_ritchie][:languages] = add
 add << "Assembly"
 end
